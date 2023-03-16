@@ -37,6 +37,7 @@ const Slider = () => {
   }, [currentSlide]);
 
   return (
+    <section id='body'>
     <div className="slider">
       <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
@@ -54,6 +55,7 @@ const Slider = () => {
         );
       })}
     </div>
+    </section>
   );
 };
 

@@ -2,6 +2,7 @@ import { FaTelegramPlane, FaMoneyCheckAlt, FaCcVisa} from 'react-icons/fa'
 import "../css/envios.css"
 function envios(){
     return(
+        <section id='body'>
         <div className="contenedor">
         <div className='envios'>
         <FaTelegramPlane className="iconos"/>  
@@ -16,6 +17,7 @@ function envios(){
         <p className='pagos'>10% abonando en efectivo y transferencias</p>
         </div>
         </div>
+        </section>
         )
          
 }
