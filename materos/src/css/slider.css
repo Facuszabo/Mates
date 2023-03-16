@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+.slider {
+  width: 95%;
+  height: 60vh;
+  margin: 50px 20px 0 20px;
+  display: flex;
+  position:absolute;
+  border-radius:  45px;
+  opacity: 90%;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 3px gray;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+  }
+  /*Netbook*/
+  @media screen and (max-width: 1020px){
+    .slider{
+      height: 70vh;
+    }
+    .slide img{
+        height: 70vh;
+    }
+  }
+  
+  /*Tablet y celulares*/
+  @media only screen and (max-width: 768px) and (min-width: 320px){
+    .slider{
+      height: 80vh;
+    }
+    .slide img{
+        height: 80vh;
+    }
+    }
+  
+  .slide img {
+    width:100%;
+    height: 60vh;
+    border-radius:  45px;
+
+  }
+  
+  .current {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .arrow {
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+  }
+  .arrow:hover {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .next {
+    top: 35%;
+    right: 1.5rem;
+  }
+  .prev {
+    top: 35%;
+    left: 1.5rem;
+  }
+  
+  hr {
+    height: 2px;
+    background: white;
+    width: 50%;
+  }

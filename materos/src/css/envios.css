@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 95%;
+  height: 20vh;
+  margin: 50px 20px 0 20px;
+  display: flex;
+  text-align: center;
+  background: white;
+  border-radius: 45px;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 3px grey;
+}
+.envios, .Tarjeta, .efectivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 33%;
+}
+.iconos{
+    width: 50px;
+    height: 50px;
+}
+.pagos{
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+@media screen and (max-width: 1020px){
+    .contenedor{
+        display: none;
+    }
+}
