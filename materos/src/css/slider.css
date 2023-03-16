@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+*{
+  box-sizing: border-box;
+}
 .slider {
   width: 95%;
   height: 60vh;
-  margin: 50px 20px 0 20px;
   display: flex;
   position:absolute;
   border-radius:  45px;
   opacity: 90%;
   border: 1px solid grey;
   box-shadow: 3px 3px 3px gray;
+  z-index: 2;
 }
 .slide {
     position: absolute;
