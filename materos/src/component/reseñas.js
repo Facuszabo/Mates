@@ -42,12 +42,12 @@ useEffect(() => {
             className={index === currentSms ? "sms current" : "sms"}
             key={index}>
             {index === currentSms && (
-              <div>
-                  <AiFillInstagram className='insta'/>              
+              <div>             
                   <div className="content">
+                  <AiFillInstagram className='insta'/> 
                   <h2>{sms.autor}</h2>
                   <h4>{sms.Ig}</h4>
-                  <p>{sms.texto}</p>
+                  <p className='reseña'>{sms.texto}</p>
                   <hr />
                 </div>
               </div>

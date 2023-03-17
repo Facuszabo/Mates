@@ -8,10 +8,11 @@
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJZEggOVPlLoO4W-FecJkA5tDu6HyuvBxtr4DfKi2a8-LgdSy57Oh0ixNczt-oA9HCCM&usqp=CAU);
   }
 .insta{
+  display: flex;
     width: 35px;
     height: 35px;
     color: white;
-    align-content: center;
+    margin:0px auto
 }
 .sms {
     top: 0;
@@ -24,7 +25,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-h2, p{
+h2, .reseña{
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: white;
@@ -64,5 +65,11 @@ h4{
     background: white;
     width: 50%;
   }
+.content{
+  width: 800px;
+  height: 300px;
+  border: 1px solid grey;
+  margin:auto
+}
 
   
