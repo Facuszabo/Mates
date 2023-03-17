@@ -3,7 +3,7 @@ import '../css/accesorios.css'
 
 function accesorios(){
     return(
-        <div className="contenedor">
+        <div className="caja">
             <card className="accesorios">
                 <img className='img' src={termo}/>
             </card>
@@ -22,7 +22,9 @@ function accesorios(){
             <card className="accesorios">
                 <img className='img' src={termo}/>
             </card>
+            <br></br>
         </div>
+        
     )
 }
 export default accesorios

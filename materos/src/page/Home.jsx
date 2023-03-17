@@ -4,7 +4,7 @@ import Envios from '../component/envios';
 import Titulo from '../component/titulo';
 import Productos from '../component/productos';
 import Accesorios from '../component/accesorios';
-
+import MensajesClientes from '../component/reseñas'
 function Home(){
   return(
     <>
@@ -14,6 +14,7 @@ function Home(){
     <Titulo title="Productos destacados"/>
     <Productos/>
     <Accesorios/>
+    <MensajesClientes/>
     </>
   )
 }

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@500 & display=swap');
+.mensajes {
+    height: 60vh;
+    border-radius:  45px;
+    opacity: 90%;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 3px gray;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJZEggOVPlLoO4W-FecJkA5tDu6HyuvBxtr4DfKi2a8-LgdSy57Oh0ixNczt-oA9HCCM&usqp=CAU);
+  }
+.insta{
+    width: 35px;
+    height: 35px;
+    color: white;
+    align-content: center;
+}
+.sms {
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+  }
+.current {
+    opacity: 1;
+    transform: translateX(0);
+  }
+h2, p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 35px;
+}
+h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.arrow {
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+  }
+  .arrow:hover {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .next {
+    top: 35%;
+    right: 1.5rem;
+  }
+  .prev {
+    top: 35%;
+    left: 1.5rem;
+  }
+  hr {
+    height: 2px;
+    background: white;
+    width: 50%;
+  }
+
+  
