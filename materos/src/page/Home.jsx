@@ -5,6 +5,7 @@ import Titulo from '../component/titulo';
 import Productos from '../component/productos';
 import Accesorios from '../component/accesorios';
 import MensajesClientes from '../component/reseñas'
+import Preguntas from '../component/preguntas';
 function Home(){
   return(
     <>
@@ -15,6 +16,7 @@ function Home(){
     <Productos/>
     <Accesorios/>
     <MensajesClientes/>
+    <Preguntas/>
     </>
   )
 }
