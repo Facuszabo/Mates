@@ -1,4 +1,4 @@
-import Card from './productos';
+import Card from './card';
 import mate from '../img/4.png'
 import '../css/productos.css'
 function productos(){

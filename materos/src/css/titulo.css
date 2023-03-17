@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 30px auto;
+}
+.destacado{
+    display: flex;
+    flex: 100%;
+    }
