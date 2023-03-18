@@ -6,6 +6,7 @@ import Productos from '../component/productos';
 import Accesorios from '../component/accesorios';
 import MensajesClientes from '../component/reseñas'
 import Preguntas from '../component/preguntas';
+import Footer from '../component/footer';
 function Home(){
   return(
     <>
@@ -17,6 +18,7 @@ function Home(){
     <Accesorios/>
     <MensajesClientes/>
     <Preguntas/>
+    <Footer/>
     </>
   )
 }
