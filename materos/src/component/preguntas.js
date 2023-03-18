@@ -5,10 +5,10 @@ function preguntas(){
         <p className='preguntas'>Preguntas frecuentes</p>
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">¿Cómo comprar?</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">¿Cuáles son las formas y tiempos de envío?</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">¿Cuáles son las opciones de pago?</a>
-      <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">¿Tienen alguna manera de certificar su experiencia?</a>
+      <a class="list-group-item list-group-item-action active dudas" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">¿Cómo comprar?</a>
+      <a class="list-group-item list-group-item-action dudas" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">¿Cuáles son las formas y tiempos de envío?</a>
+      <a class="list-group-item list-group-item-action dudas" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">¿Cuáles son las opciones de pago?</a>
+      <a class="list-group-item list-group-item-action dudas" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">¿Tienen alguna manera de certificar su experiencia?</a>
     </div>
   </div>
   <div class="col-8">
