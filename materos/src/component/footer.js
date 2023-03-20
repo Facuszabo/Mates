@@ -1,4 +1,4 @@
-import logo from '../img/1.jpeg'
+import logo from '../img/logo.png'
 import {AiFillMail , AiFillFacebook,AiFillInstagram } from "react-icons/ai";
 import american from '../img/american.png'
 import cabal from '../img/cabal.png'

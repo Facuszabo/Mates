@@ -4,8 +4,9 @@
     border-radius:  45px;
     opacity: 90%;
     border: 1px solid grey;
+    margin: 20px 10px 20px 10px;
     box-shadow: 3px 3px 3px gray;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJZEggOVPlLoO4W-FecJkA5tDu6HyuvBxtr4DfKi2a8-LgdSy57Oh0ixNczt-oA9HCCM&usqp=CAU);
+    background-image: url(../img/reseña.png);
   }
 .insta{
   display: flex;

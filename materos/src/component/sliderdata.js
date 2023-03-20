@@ -1,6 +1,6 @@
-import primera from '../img/2.png'
-import seg from '../img/3.png'
-import terc from '../img/4.png'
+import primera from '../img/slider.png'
+import seg from '../img/slider2.png'
+import terc from '../img/slider3.png'
 export const Sliderdata =[
   {
     image: primera,

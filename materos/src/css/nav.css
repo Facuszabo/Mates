@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
 *{
   box-sizing: border-box;
   text-decoration: none;
@@ -13,9 +13,10 @@ ul{
 }
 .titulo{
     font-size: 50px;
-    font-family: 'Abril Fatface', cursive;
-    color: #5a5414;
+    font-family: 'Alegreya', serif;
+    color: rgb(114, 36, 36);
     text-align: center;
+    text-decoration: none;
 }
 .nav {
     display: flex;
@@ -25,13 +26,14 @@ ul{
     border-radius: 45px;
     border: 1px solid grey;
     box-shadow: 3px 3px 3px black;
+    margin: 20px 10px 20px 10px;
   }
   .nav__brand {
     text-transform: uppercase;
   }
   .textNav{
-    font-family: 'Tilt Warp' cursive;
-      font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
     color: grey;
     text-decoration: none;
   }

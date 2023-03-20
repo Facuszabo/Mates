@@ -2,8 +2,10 @@
   box-sizing: border-box;
 }
 .slider {
+  display: block;
   height: 60vh;
   border-radius:  45px;
+  margin: 20px 10px 20px 10px;
   opacity: 90%;
   border: 1px solid grey;
   box-shadow: 3px 3px 3px gray;
@@ -16,24 +18,24 @@
     transition: all 0.5s ease;
   }
   /*Netbook*/
-  @media screen and (max-width: 1020px){
+  /*@media screen and (max-width: 1020px){
     .slider{
       height: 70vh;
     }
     .slide img{
         height: 70vh;
     }
-  }
+  }*/
   
   /*Tablet y celulares*/
-  @media only screen and (max-width: 768px) and (min-width: 320px){
+  /*@media only screen and (max-width: 768px) and (min-width: 320px){
     .slider{
       height: 80vh;
     }
     .slide img{
         height: 80vh;
     }
-    }
+    }*/
   
   .slide img {
     width:100%;

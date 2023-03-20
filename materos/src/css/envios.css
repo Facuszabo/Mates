@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
 *{
     box-sizing: border-box;
 }
@@ -10,6 +10,7 @@
   border-radius: 45px;
   border: 1px solid grey;
   box-shadow: 3px 3px 3px grey;
+  margin: 20px 10px 20px 10px;
 }
 .envios, .Tarjeta, .efectivo{
     display: flex;
@@ -20,10 +21,12 @@
 .iconos{
     width: 50px;
     height: 50px;
+    color: rgb(114, 36, 36);
 }
 .pagos{
-    font-size: 15px;
-    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: rgb(114, 36, 36);
 }
 @media screen and (max-width: 1020px){
     .contenedor{
