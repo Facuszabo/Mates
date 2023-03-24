@@ -1,5 +1,6 @@
 import logo from '../img/logo.png'
 import {AiFillMail , AiFillFacebook,AiFillInstagram } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 import american from '../img/american.png'
 import cabal from '../img/cabal.png'
 import maestro from '../img/maestro.png'
@@ -15,20 +16,20 @@ function footer(){
         <div className="logred">
         <img className='imgfoot' src={logo}/>
         <div className='redes'> 
-        <AiFillInstagram className='icon'/>
-        <AiFillFacebook className='icon'/>
+        <a href='https://www.instagram.com/codigo_matero/'><AiFillInstagram className='icon'/></a>
         <AiFillMail className='icon'/>
+        <a href='https://www.facebook.com/profile.php?id=100078627708582'><AiFillFacebook className='icon'/></a>
         </div>
         </div>
         <div className="secciones">
         <h className="textfoot">Secciones</h>
         <ul class="textfoot">
-            <li><a class="textfoot textacces" href="#">Mates</a></li>
-            <li><a class="textfoot textacces" href="#">Termos</a></li>
-            <li><a class="textfoot textacces" href="#">Materas</a></li>
-            <li><a class="textfoot textacces" href="#">Accesorios</a></li>
-            <li><a class="textfoot textacces" href="#">Stanley</a></li>
-            <li><a class="textfoot textacces" href="#">Vasos termicos</a></li>
+        <Link className="link" to={"/mates"}><li><a class="textfoot textacces" href="#">Mates</a></li></Link>
+        <Link className="link" to={"/termos"}><li><a class="textfoot textacces" href="#">Termos</a></li></Link>
+        <Link className="link" to={"/canasta"}><li><a class="textfoot textacces" href="#">Materas</a></li></Link>
+        <Link className="link" to={"/accesorio"}><li><a class="textfoot textacces" href="#">Accesorios</a></li></Link>
+        <Link className="link" to={"/stanley"}><li><a class="textfoot textacces" href="#">Stanley</a></li></Link>
+        <Link className="link" to={"/vasos"}><li><a class="textfoot textacces" href="#">Vasos termicos</a></li></Link>
           </ul>
         </div>
         <div className="tarjetas">

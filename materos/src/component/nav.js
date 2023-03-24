@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import "../css/nav.css"
 import logo from '../img/logo.png'
+import { Link } from "react-router-dom";
 function Nav(){
   const [activar, setActivar] = useState("nav__menu");
   const [icono, setIcono] = useState("nav__toggler");
@@ -15,36 +16,31 @@ function Nav(){
   };
   return (
     <nav className="nav">
-      <img src={logo} className="logo"></img>
-      <a className="titulo">CODIGO MATERO</a>
+      <Link className="link" to={"/"}><img src={logo} className="logo"></img></Link>
+      <Link className="link" to={"/"}><a className="titulo">CODIGO MATERO</a></Link>
       <ul className={activar}>
         <li className="nav-item">
-          <a className="textNav">
+        <Link className="link" to={"/"}><a className="textNav">
             Inicio
-          </a>
+          </a></Link>
         </li>
         <li class="nav-item dropdown">
           <a class="textNav dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Tienda online
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Mates</a></li>
-            <li><a class="dropdown-item" href="#">Stanley</a></li>
-            <li><a class="dropdown-item" href="#">Canastas</a></li>
-            <li><a class="dropdown-item" href="#">Termos</a></li>
-            <li><a class="dropdown-item" href="#">Accesorios</a></li>
-            <li><a class="dropdown-item" href="#">Vasos</a></li>
+          <Link className="link" to={"/mates"}><li><a class="dropdown-item">Mates</a></li></Link>
+          <Link className="link" to={"/stanley"}><li><a class="dropdown-item">Stanley</a></li></Link>
+          <Link className="link" to={"/canasta"}><li><a class="dropdown-item">Canastas</a></li></Link>
+          <Link className="link" to={"/termos"}><li><a class="dropdown-item">Termos</a></li></Link>
+          <Link className="link" to={"/accesorio"}><li><a class="dropdown-item">Accesorios</a></li></Link>
+          <Link className="link" to={"/vasos"}><li><a class="dropdown-item">Vasos</a></li></Link>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="textNav">
-            Adjunta tu comprobante
-          </a>
-        </li>
         <li>
-          <a className="textNav">
+        <Link className="link" to={"/contacto"}><a className="textNav">
           Contacto
-          </a>
+          </a></Link>
         </li>
       </ul>
       <div onClick={navToggle} className={icono}>
