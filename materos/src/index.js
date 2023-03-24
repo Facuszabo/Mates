@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from "./page/Home";
+import Approuter from './route/AppRouter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <>
-    <Home/>
-    </>
+    <Approuter/>
   </React.StrictMode>
 );
 

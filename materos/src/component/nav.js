@@ -28,9 +28,12 @@ function Nav(){
             Tienda online
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Mates</a></li>
+            <li><a class="dropdown-item" href="#">Stanley</a></li>
+            <li><a class="dropdown-item" href="#">Canastas</a></li>
+            <li><a class="dropdown-item" href="#">Termos</a></li>
+            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+            <li><a class="dropdown-item" href="#">Vasos</a></li>
           </ul>
         </li>
         <li className="nav-item">

@@ -7,13 +7,14 @@
     border: 2px solid rgb(218, 161, 57);
     border-radius: 20px;
     height: 450px;
+    background-color: wheat;
 }
 .producto{
     margin-top: 0px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Alegreya', serif;
     text-align: center;
     font-size: 30px;
-    color: rgb(218, 161, 57)
+    color: black
 }
 .precio{
     font-family: 'Noto Serif', serif;
@@ -37,4 +38,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/*netbook*/
+@media all and (max-width: 1020px) {
+    .card{
+        height: 350px;
+    }
+    .producto{
+        font-size: 30px;
+        }
+}
+/*celulares*/
+@media all and (max-width: 768px) {
+    .producto{
+    font-size: 25px;
+    }
+    .card{
+        height: 300px;
+    }
 }
