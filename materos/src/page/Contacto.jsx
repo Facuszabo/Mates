@@ -1,15 +1,15 @@
 import Nav from '../component/nav';
 import Titulo from '../component/titulo';
-import Productos from '../component/prodstanley'
+import Contacto from '../component/contacto'
 import Footer from '../component/footer';
-function Stanley(){
+function PagContacto(){
   return(
     <>
     <Nav/>
-    <Titulo title="Stanley"/>
-    <Productos/>
+    <Titulo title="Contacto"/>
+    <Contacto/>
     <Footer/>
     </>
   )
 }
-export default Stanley;
+export default PagContacto;

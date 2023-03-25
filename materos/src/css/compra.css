@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+.compra{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+}
+.imgcompra{
+   flex: 60%;
+   width: 60%;
+   height: auto;
+   border: 2px solid rgb(218, 161, 57);
+   border-radius: 20px;
+}
+.containercompra{
+    flex: 40%;
+}
+.nombre{
+    border: 2px solid rgb(218, 161, 57);
+    border-radius: 20px;
+    background-color: wheat;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: black
+}
+.descripcion{
+    border: 2px solid rgb(218, 161, 57);
+    border-radius: 20px;
+    background-color: wheat;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    width: 100%;
+}
+/*celulares*/
+@media all and (max-width: 768px) {
+.compra{
+    flex-direction: column;
+}
+.nombre{
+    font-size: 25px;
+}
+.descripcion{
+    font-size: 15px;
+}
+.imgcompra{
+    width: 100%;
+}
+}

@@ -6,7 +6,7 @@
 .card{
     border: 2px solid rgb(218, 161, 57);
     border-radius: 20px;
-    height: 450px;
+    height: 400px;
     background-color: wheat;
 }
 .producto{
@@ -16,21 +16,7 @@
     font-size: 30px;
     color: black
 }
-.precio{
-    font-family: 'Noto Serif', serif;
-    text-align: left;
-    font-size: 20px;
-    color: rgb(141, 82, 55);
-}
-.precio.contado{
-    color: rgb(89, 191, 89);
-}
-.tarjeta{
-    font-family: 'Noto Serif', serif;
-    text-align: left;
-    font-size: 17px;
-    color: rgb(54, 54, 54);
-}
+
 .image{
     width: 100%;
     height: 180px;

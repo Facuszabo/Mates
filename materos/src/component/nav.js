@@ -30,9 +30,9 @@ function Nav(){
           </a>
           <ul class="dropdown-menu">
           <Link className="link" to={"/mates"}><li><a class="dropdown-item">Mates</a></li></Link>
-          <Link className="link" to={"/stanley"}><li><a class="dropdown-item">Stanley</a></li></Link>
-          <Link className="link" to={"/canasta"}><li><a class="dropdown-item">Canastas</a></li></Link>
           <Link className="link" to={"/termos"}><li><a class="dropdown-item">Termos</a></li></Link>
+          <Link className="link" to={"/canasta"}><li><a class="dropdown-item">Canastas</a></li></Link>
+          <Link className="link" to={"/grabados"}><li><a class="dropdown-item">Grabados</a></li></Link>
           <Link className="link" to={"/accesorio"}><li><a class="dropdown-item">Accesorios</a></li></Link>
           <Link className="link" to={"/vasos"}><li><a class="dropdown-item">Vasos</a></li></Link>
           </ul>

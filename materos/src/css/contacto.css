@@ -1,0 +1,30 @@
+.contenedorcontac{
+    width: 95%;
+    margin: auto;
+    gap: 25px;
+    display: flex
+}
+.cajacontac{
+    border: 2px solid rgb(218, 161, 57);
+    border-radius: 20px;
+    flex: 33%;
+    height: 300px;
+    background-color: wheat;
+}
+.icono{
+    font-size: 30px;
+    margin-left: 50%;
+}
+.textos{
+    margin-top: 0px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: black
+}
+
+        /*celulares*/
+        @media all and (max-width: 768px) {  
+            .contenedorcontac{
+            flex-direction: column;
+        } 
+    }

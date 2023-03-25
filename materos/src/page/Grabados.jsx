@@ -1,16 +1,15 @@
 import Nav from '../component/nav';
 import Titulo from '../component/titulo';
-import Productos from '../component/prodtermos';
+import Productos from '../component/prodgrabados'
 import Footer from '../component/footer';
-import '../css/productos.css'
-function Termos(){
+function Grabados(){
   return(
     <>
     <Nav/>
-    <Titulo title="Termos"/>
+    <Titulo title="Grabados"/>
     <Productos/>
     <Footer/>
     </>
   )
 }
-export default Termos;
+export default Grabados;

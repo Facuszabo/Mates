@@ -24,11 +24,11 @@ function footer(){
         <div className="secciones">
         <h className="textfoot">Secciones</h>
         <ul class="textfoot">
-        <Link className="link" to={"/mates"}><li><a class="textfoot textacces" href="#">Mates</a></li></Link>
-        <Link className="link" to={"/termos"}><li><a class="textfoot textacces" href="#">Termos</a></li></Link>
-        <Link className="link" to={"/canasta"}><li><a class="textfoot textacces" href="#">Materas</a></li></Link>
-        <Link className="link" to={"/accesorio"}><li><a class="textfoot textacces" href="#">Accesorios</a></li></Link>
-        <Link className="link" to={"/stanley"}><li><a class="textfoot textacces" href="#">Stanley</a></li></Link>
+        <Link className="link" to={"/mates"}><li><a class="textfoot textacces" >Mates</a></li></Link>
+        <Link className="link" to={"/termos"}><li><a class="textfoot textacces" >Termos</a></li></Link>
+        <Link className="link" to={"/canasta"}><li><a class="textfoot textacces" >Canastas</a></li></Link>
+        <Link className="link" to={"/accesorio"}><li><a class="textfoot textacces" >Accesorios</a></li></Link>
+        <Link className="link" to={"/grabados"}><li><a class="textfoot textacces" >Grabados</a></li></Link>
         <Link className="link" to={"/vasos"}><li><a class="textfoot textacces" href="#">Vasos termicos</a></li></Link>
           </ul>
         </div>

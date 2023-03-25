@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+*{
+    margin: 0px;
+}
+.imagen{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
