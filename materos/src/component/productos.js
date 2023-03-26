@@ -1,18 +1,19 @@
 import Card from './card';
 import mate from '../img/4.png'
 import '../css/productos.css'
+import { Link } from 'react-router-dom';
 function productos(){
     return(
         <body>
         <div className="container">
-        <Card className="item" image={mate} name="Mate camionero grabado"/>
-        <Card className="item" image={mate} name="Mate torpedo acero"/>
-        <Card className="item" image={mate} name="Mate Imperial"/>
-        <Card className="item" image={mate} name="Mate Imperial cincelado"/>
-        <Card className="item" image={mate} name="Termo Polar Adventure"/>
-        <Card className="item" image={mate} name="Termo media manija"/>
-        <Card className="item" image={mate} name="Vasos termicos grabados"/>
-        <Card className="item" image={mate} name="Canasta 100% cuero" />
+        <Link className="link" to={"/grabados/camionerograbado"}><Card className="item" image={mate} name="Mate camionero grabado"/></Link>
+        <Link className="link" to={"/mates/torpedoacero"}><Card className="item" image={mate} name="Mate torpedo acero"/></Link>
+        <Link className="link" to={"/mates/imperialliso"}><Card className="item" image={mate} name="Mate Imperial"/></Link>
+        <Link className="link" to={"/mates/imperialcincelado"}><Card className="item" image={mate} name="Mate Imperial cincelado"/></Link>
+        <Link className="link" to={"/termos/polaradventure"}><Card className="item" image={mate} name="Termo Polar Adventure"/></Link>
+        <Link className="link" to={"/termos/mediamanija"}><Card className="item" image={mate} name="Termo media manija"/></Link>
+        <Link className="link" to={"/vasos/personalizado"}><Card className="item" image={mate} name="Vasos termicos grabados"/></Link>
+        <Link className="link" to={"/termos/cuero100%"}><Card className="item" image={mate} name="Canasta 100% cuero" /></Link>
         </div>
         </body>
     )

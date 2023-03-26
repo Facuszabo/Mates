@@ -16,9 +16,9 @@ function footer(){
         <div className="logred">
         <img className='imgfoot' src={logo}/>
         <div className='redes'> 
-        <a href='https://www.instagram.com/codigo_matero/'><AiFillInstagram className='icon'/></a>
+        <a className='link' href='https://www.instagram.com/codigo_matero/'><AiFillInstagram className='icon'/></a>
         <AiFillMail className='icon'/>
-        <a href='https://www.facebook.com/profile.php?id=100078627708582'><AiFillFacebook className='icon'/></a>
+        <a className='link' href='https://www.facebook.com/profile.php?id=100078627708582'><AiFillFacebook className='icon'/></a>
         </div>
         </div>
         <div className="secciones">
