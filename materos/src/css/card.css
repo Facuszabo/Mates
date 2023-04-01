@@ -6,7 +6,7 @@
 .card{
     border: 2px solid rgb(218, 161, 57);
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
     background-color: wheat;
 }
 .producto{
@@ -19,7 +19,7 @@
 
 .image{
     width: 100%;
-    height: 180px;
+    height: auto;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -27,9 +27,6 @@
 }
 /*netbook*/
 @media all and (max-width: 1020px) {
-    .card{
-        height: 350px;
-    }
     .producto{
         font-size: 30px;
         }
@@ -38,8 +35,5 @@
 @media all and (max-width: 768px) {
     .producto{
     font-size: 25px;
-    }
-    .card{
-        height: 300px;
     }
 }

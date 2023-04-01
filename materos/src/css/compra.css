@@ -7,6 +7,17 @@
     gap: 10px;
     border-radius: 20px;
 }
+.imagecompra{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.botonback{
+    justify-content: start;
+}
+.botonnext{
+    justify-content: end;
+}
 .imgcompra{
    flex: 60%;
    width: 60%;
@@ -29,10 +40,20 @@
     font-size: 35px;
     color: black
 }
-.descripcion{
+.cajadescripcion{
     border: 2px solid rgb(218, 161, 57);
     border-radius: 20px;
     background-color: wheat;
+}
+.titulodescripcion{
+    font-family: 'Alkatra', cursive;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    height: auto;
+    width: 100%;
+}
+.descripcion{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 25px;
