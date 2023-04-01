@@ -1,12 +1,14 @@
 import Nav from '../component/nav'
 import Productos from '../component/compra'
-import mate from '../img/4.png'
+import vaso from '../img/vasos/rosa.jpg'
+import vaso1 from '../img/vasos/vaso.jpg'
+import vaso2 from '../img/vasos/rosa1.jpg'
 import Footer from '../component/footer';
 function Vasorosa(){
     return(
         <>
         <Nav/>
-        <Productos image={mate} name="Vaso termico rosa" desc="fyvsguicboihan"/>
+        <Productos image={vaso} image1={vaso1} image2={vaso2} name="Vaso termico rosa" desc="Te acompaña en tus tardes de trabajo, estudios o viajes. Porque si queres tener tu cafe caliente lo hace, porque si queres mantener tu bebida fresca lo hara. No hay mejor compañia para tus largas jornadas que este vaso termico, con una delicadez, funcionalidad y sorbete que te permite disfrutar de tu bebida de la manera mas comoda"/>
         <Footer/>
         </>
     )

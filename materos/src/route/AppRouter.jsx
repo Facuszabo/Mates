@@ -67,7 +67,7 @@ const AppRouter=()=>{
         <Route path="/vasos/personalizado" element={<Vasograbado/>}/> 
         <Route path="/canasta/simil" element={<Similcuero/>}/> 
         <Route path="/canasta/similmanijacuero" element={<Simimanija/>}/> 
-        <Route path="/canasta/cuero100%" element={<Cuero/>}/> 
+        <Route path="/canasta/cuero" element={<Cuero/>}/> 
         <Route path="/grabados/camionerograbado" element={<Camionerograbado/>}/>
         <Route path="/grabados/imperialgrabado" element={<Imperialgrabado/>}/>
         <Route path="/grabados/torpedograbado" element={<Torpedograbado/>}/>
