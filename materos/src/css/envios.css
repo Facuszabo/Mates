@@ -14,7 +14,7 @@
 }
 .envios, .Tarjeta, .efectivo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex: 33%;
 }

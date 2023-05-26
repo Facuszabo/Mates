@@ -23,7 +23,7 @@ ul{
 }
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background: white;
     border-radius: 45px;

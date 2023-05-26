@@ -14,6 +14,8 @@ export const mensajes =[
     autor: "Pedro García",
     Ig: "@garcia_pedro"
 },
+]
+export const reseñas= [ 
 {
     texto: "Buenas noches, me llego re bien y rapido el pedido.Graciasss.",
     autor: "Mica Cenajk",
@@ -28,5 +30,5 @@ export const mensajes =[
     texto: "Impresionante el termo stanley amigo, muchas gracias.",
     autor: "Facu szabo",
     Ig: "@Facu_szabo"
-}
+},
 ]

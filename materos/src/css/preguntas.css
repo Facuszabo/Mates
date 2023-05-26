@@ -2,11 +2,16 @@
 .row{
     width: auto;
     margin: 30px auto;
-    border: 1px solid grey;
-    border-radius:  45px;
-    background-image: url(../img/preguntas.png);
+   /*background-image: url(../img/preguntas.png);*/
     position: center;
-    margin: 20px 10px 20px 10px;
+    display: flex;
+}
+.accordion{
+  flex: 60%;
+}
+.preguntadirecta{
+  flex:40% ;
+  align-items: center;
 }
 .preguntas, .respuesta,.dudas{
     text-align: center;
@@ -24,6 +29,9 @@
 @media only screen and (max-width: 768px) and (min-width: 320px){
     .preguntas{
       font-size: 28px;
+    }
+    .row{
+      display: block;
     }
     .respuesta, .dudas{
       font-size: 16px;
