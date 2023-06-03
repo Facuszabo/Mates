@@ -6,7 +6,7 @@ function Similcuero(){
     return(
         <>
         <Nav/>
-        <Productos image={mate} name="Simil cuero" desc="fyvsguicboihan"/>
+        <Productos image={mate} name="Simil cuero" desc="¿Como vas a tener tu combo y no vas a tener donde llevarlo? Economica, preciosa y sobretodo util, te permite llevar de la mejor manera tu set "/>
         <Footer/>
         </>
     )

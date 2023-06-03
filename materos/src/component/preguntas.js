@@ -1,4 +1,5 @@
 import '../css/preguntas.css'
+import {AiOutlineWhatsApp } from "react-icons/ai";
 function preguntas(){
     return(
         <div class="row">
@@ -45,7 +46,8 @@ function preguntas(){
   <div class="card-body">
     <h5 class="card-title">¿Tenes alguna otra duda?</h5>
     <h8 class="card-text">Contactate directamente con algun vendedor</h8>
-    <a href="#" class="card-link">Another link</a>
+    <hr></hr>
+    <a className='link' href='https://wa.me/+5493813398623'><AiOutlineWhatsApp className='what'/></a>
   </div>
 </div>
 </div>

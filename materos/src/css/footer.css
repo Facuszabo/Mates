@@ -2,14 +2,12 @@
 .footer{
 display: flex;
 margin: auto;
+justify-content: center;
 background-image: url(../img/footer.png) ;
 }
-.logred, .secciones, .tarjetas{
-    flex: 33%;
+.logred, .tarjetas{
+    flex: 50%;
     margin: auto;
-    align-items: center;
-}
-.logred{
     justify-content: center;
 }
 .imgfoot{

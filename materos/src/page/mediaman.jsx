@@ -8,15 +8,7 @@ function MediaManija(){
     return(
         <>
         <Nav/>
-        <Productos  image={termo} image1={termo1} image2={termo2} name="Termo Media Manija" desc="Con menor distancia entre sus paredes internas que garantiza mayor durabilidad.
-Con tapón cebador.
-Tapa que funciona como vaso.
-A prueba de fugas.
-Práctico y portable.
-Termo que mantiene las bebidas calientes o frías 24hs 
-8/8 acero inoxidable; naturalmente libre de BPA
-Tapa con aislamiento térmicopara usar como taza
-A prueba de fugas y práctico para cargar"/>
+        <Productos  image={termo} image1={termo1} image2={termo2} name="Termo Media Manija" desc="Practico, util, perfecto para llevar a cualquier lado y mantener tu agua caliente por 12 hrs, y no solo eso. Con doble pared aislante, pico cebador y facil de mover de un lado a lado es tu compañero ideal para la facultad, trabajo o viajes"/>
         <Footer/>
         </>
     )

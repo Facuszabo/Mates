@@ -1,6 +1,6 @@
 import '../css/compra.css'
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import { AiFillProfile } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import 'pure-react-carousel/dist/react-carousel.es.css';
 function compra(props){
     return(
@@ -22,6 +22,11 @@ function compra(props){
     <div className='cajadescripcion'>
     <p className='titulodescripcion'>Descripcion del producto</p>
     <p className="descripcion" >{props.desc}</p>
+    </div>
+    <hr></hr>
+    <div className='whatsapp'>
+    <a className='link' href='https://wa.me/+5493813398623'><AiOutlineWhatsApp className='what'/></a>
+    <p className='textwp'>Para tu compra comunicate con el vendedor atravez de este link a WhatsApp</p>
     </div>
     </div>
     </div>

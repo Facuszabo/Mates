@@ -13,6 +13,11 @@
   flex:40% ;
   align-items: center;
 }
+.what{
+  display: flex;
+  font-size: 40px;
+  color: rgb(68, 170, 37);
+}
 .preguntas, .respuesta,.dudas{
     text-align: center;
     font-family: 'Merriweather', serif;

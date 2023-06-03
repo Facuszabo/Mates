@@ -9,7 +9,7 @@ function Simimanija(){
         <>
         <Nav/>
         <Productos image={canasta} image1={canasta1} image2={canasta2} name="Simil cuero con manija de cuero" desc="Economica, hermosa y para toda la vida. Describe un poco a este canasta con un cuerpo simil cuero
-        con un detalle mas lindo que otro pero lo que mas destacamos de esta canasta es su manija en cuerp que te permite cargar con tu juego con la seguridad y confianza que necesitamos"/>
+        con un detalle mas lindo que otro pero lo que mas destacamos de esta canasta es su manija en cuero que te permite cargar con tu juego con la seguridad y confianza que necesitamos"/>
         <Footer/>
         </>
     )

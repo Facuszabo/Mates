@@ -1,4 +1,5 @@
 import Card from './card';
+import camiograb from '../img/mates/camiograb.jpg'
 import cincelado from '../img/mates/cincelado.jpg'
 import liso from '../img/mates/liso.jpg'
 import grabado from '../img/vasos/grabado1.jpg'
@@ -12,7 +13,7 @@ function productos(){
     return(
         <body>
         <div className="container">
-        <Link className="link" to={"/grabados/camionerograbado"}><Card className="item" image={grabado} name="Mate camionero grabado"/></Link>
+        <Link className="link" to={"/grabados/camionerograbado"}><Card className="item" image={camiograb} name="Mate camionero grabado"/></Link>
         <Link className="link" to={"/mates/torpedoacero"}><Card className="item" image={torpacero} name="Mate torpedo acero"/></Link>
         <Link className="link" to={"/mates/imperialliso"}><Card className="item" image={liso} name="Mate Imperial"/></Link>
         <Link className="link" to={"/mates/imperialcincelado"}><Card className="item" image={cincelado} name="Mate Imperial cincelado"/></Link>
