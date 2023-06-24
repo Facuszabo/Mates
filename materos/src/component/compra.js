@@ -32,7 +32,7 @@ function compra(props){
     <hr></hr>
     <div className='whatsapp'>
     <a className='link' href='https://wa.me/+5493813398623'><AiOutlineWhatsApp className='iconwp'/></a>
-    <p className='textwp'>Para tu compra comunicate con el vendedor atravez de este link a WhatsApp</p>
+    <p className='textwp'>Para tu compra comunicate con nosotros atravez de este link a WhatsApp</p>
     </div>
     </div>
     </div>

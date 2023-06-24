@@ -1,6 +1,6 @@
 import mate from '../img/mates/principal.jpg'
 import canasta from '../img/mates/principal1.jpeg'
-import accesorio from '../img/mates/accesorio.jpg'
+import accesorio from '../img/mates/accesorios.jpg'
 import termo from '../img/mates/principal2.jpeg'
 import grabado from '../img/vasos/grabado1.jpg'
 import stanley from '../img/mates/principal3.jpeg'

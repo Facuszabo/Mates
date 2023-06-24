@@ -23,6 +23,7 @@ function Navbar() {
       <Link className="link" to={"/accesorio"}><a>Accesorios</a></Link>
       <Link className="link" to={"/canasta"}><a>Canastas</a></Link>
       <Link className="link" to={"/grabados"}><a>Grabados</a></Link>
+	  <Link className="link" to={"/vasos"}><a>Vasos</a></Link>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

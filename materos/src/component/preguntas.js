@@ -42,10 +42,11 @@ function preguntas(){
     </div>
   </div>
 </div>
+<br></br>
 <div class="preguntadirecta">
   <div class="card-body">
     <h5 class="card-title">¿Tenes alguna otra duda?</h5>
-    <h8 class="card-text">Contactate directamente con algun vendedor</h8>
+    <h5 class="card-title">Contactate directamente con nosotros</h5>
     <hr></hr>
     <a className='link' href='https://wa.me/+5493813398623'><AiOutlineWhatsApp className='what'/></a>
   </div>

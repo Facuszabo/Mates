@@ -1,5 +1,5 @@
 import Card from './card';
-import yerbero from '../img/accesorios/yerbero.jpg'
+import yerbero from '../img/accesorios/latas.jpg'
 import sobre from '../img/accesorios/sobre1.jpg'
 import despol from '../img/accesorios/despolvillador.jpg'
 import cincelado from '../img/accesorios/cincelado.jpg'

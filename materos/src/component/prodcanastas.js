@@ -1,5 +1,5 @@
 import Card from './card';
-import simil from '../img/canastas/manijacuero.jpg'
+import simil from '../img/canastas/simil.jpg'
 import manijacuero from '../img/canastas/manijacuero1.jpg'
 import cuero from '../img/canastas/cuero3.jpg'
 import '../css/productos.css'

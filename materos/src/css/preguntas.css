@@ -14,7 +14,7 @@
   align-items: center;
 }
 .what{
-  display: flex;
+  margin-left: 50%;
   font-size: 40px;
   color: rgb(68, 170, 37);
 }
@@ -23,6 +23,9 @@
     font-family: 'Merriweather', serif;
     color: white;
     font-size: 35px;
+}
+.card-title{
+  text-align: center;
 }
 .respuesta, .dudas{
     font-size: 20px;
