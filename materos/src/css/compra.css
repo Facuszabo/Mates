@@ -9,9 +9,6 @@
 }
 .imagecompra{
     width: 100%;
-    height: auto;
-    border-radius: 20px;
-    justify-content: center;
 }
 .botonback{
     justify-content: start;
@@ -22,7 +19,7 @@
 .imgcompra{
    flex: 60%;
    width: 60%;
-   height: auto;
+   height: 800px;
    border: 2px solid rgb(218, 161, 57);
    border-radius: 20px;
 }
@@ -46,11 +43,10 @@
     border-radius: 20px;
     background-color: wheat;
 }
-.what{
-    display: flex;
+.iconwp{
+    align-content: center;
     font-size: 40px;
     color: rgb(68, 170, 37);
-    margin: auto;
   }
 .textwp{
     font-size: 30px;

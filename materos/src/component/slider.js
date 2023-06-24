@@ -1,60 +1,29 @@
-import { useState, useEffect } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import { Sliderdata } from "./sliderdata";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import '../css/slider.css'
-
-const Slider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const slideLength = Sliderdata.length;
-
-  const autoScroll = true;
-  let slideInterval;
-  let intervalTime = 5000;
-
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-    console.log("next");
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-    console.log("prev");
-  };
-
-  function auto() {
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-
-  useEffect(() => {
-    setCurrentSlide(0);
-  }, []);
-
-  useEffect(() => {
-    if (autoScroll) {
-      auto();
-    }
-    return () => clearInterval(slideInterval);
-  }, [currentSlide]);
-
+import primera from '../img/slider.png'
+import seg from '../img/slider2.png'
+import terc from '../img/slider3.png'
+function Slider(){
   return (
     <section id='body'>
-    <div className="slider">
-      <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-      <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
-      {Sliderdata.map((slide, index) => {
-        return (
-          <div
-            className={index === currentSlide ? "slide current" : "slide"}
-            key={index}>
-            {index === currentSlide && (
-              <div>
-                <img src={slide.image} alt="slide" className="image" />
-              </div>
-            )}
-          </div>
-        );
-      })}
-    </div>
+  <Swiper className='slider'
+      modules={[Navigation,EffectFade, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      effect="fade"
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+    >
+      <SwiperSlide><img src={primera} className='imageslider'/></SwiperSlide>
+      <SwiperSlide><img src={seg} className='imageslider'/></SwiperSlide>
+      <SwiperSlide><img src={terc} className='imageslider'/></SwiperSlide>
+    </Swiper>
     </section>
   );
 };

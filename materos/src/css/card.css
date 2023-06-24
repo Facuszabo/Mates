@@ -3,6 +3,9 @@
 *{
     margin: 0px;
 }
+.link{
+    text-decoration: none;
+}
 .card{
     border: 2px solid rgb(218, 161, 57);
     border-radius: 20px;

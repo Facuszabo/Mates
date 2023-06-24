@@ -9,6 +9,7 @@
     .item{
     grid-column-start: 1 ;
     grid-column-end: 2;
+    position: relative;
     }
     /*netbook*/
     @media all and (max-width: 1020px) {

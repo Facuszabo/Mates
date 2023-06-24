@@ -12,7 +12,7 @@ function accesorios(){
         <div className="cajon">
             <Link className="link cajaaccesorio" to={"/mates"}><CajaAcces image={mate} nombre="Mates"/></Link>
             <Link className="link cajaaccesorio" to={"/termos"}><CajaAcces image={termo} nombre="Termos"/></Link>
-            <Link className="link cajaaccesorio" to={"/stanley"}><CajaAcces image={stanley} nombre="Stanley"/></Link>
+            <Link className="link cajaaccesorio" to={"/grabados"}><CajaAcces image={stanley} nombre="Grabados"/></Link>
             <Link className="link cajaaccesorio" to={"/accesorio"}><CajaAcces image={accesorio} nombre="Accesorios"/></Link>
             <Link className="link cajaaccesorio" to={"/canasta"}><CajaAcces image={canasta} nombre="Canasta"/></Link>
             <Link className="link cajaaccesorio" to={"/vasos"}><CajaAcces image={grabado} nombre="Vasos"/></Link>
